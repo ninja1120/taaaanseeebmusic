@@ -517,7 +517,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/e603be794743a7026a22b.jpg"
+        thumb_name = "https://telegra.ph/file/25118a5429201b7742986.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -584,8 +584,8 @@ async def play(_, message: Message):
             emojilist = ["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣"]
             while j < 6:
                 toxxt += f"{emojilist[j]} [{results[j]['title'][:20]}](https://youtube.com{results[j]['url_suffix']})\n"
-                toxxt += f" |> 🖤 **Duration** - {results[j]['duration']}\n"
-                toxxt += f" |> ✨ Powered by {BOT_NAME} A.I\n\n"
+                toxxt += f" > 🖤 **Duration** - {results[j]['duration']}\n"
+                toxxt += f" > ✨ Powered by {BOT_NAME} A.I\n\n"
                 j += 1            
             keyboard = InlineKeyboardMarkup(
                 [
