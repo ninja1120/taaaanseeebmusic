@@ -49,7 +49,7 @@ async def start_(client: Client, message: Message):
                          "📚 ᴄᴏᴍᴍᴀɴᴅs", url="https://t.me/update_music0"
                     ),
                     InlineKeyboardButton(
-                        "ᴅɪᴄᴀᴘʀɪᴏ 💗", url=f"https://t.me/{OWNER_NAME}")
+                        "ᴅᴇᴠᴇʟᴏᴘᴇʀ 💗", url=f"https://t.me/{OWNER_NAME}")
                 ],[
                     InlineKeyboardButton(
                         "👥 ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
@@ -58,7 +58,7 @@ async def start_(client: Client, message: Message):
                         "📣 ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")               
                  ],[
                     InlineKeyboardButton(
-                        "ᴘʀᴏɢʀᴀᴍᴍᴇʀ 💌", url="https://t.me/YY_OIO"
+                        "💌", url="https://github.com/ninja1120"
                     )
                 ]
             ]
